@@ -10,14 +10,19 @@ It's basically using Jays Vagrantscripts (http://github.com/jayjanssen/vagrant-p
 
 simple:
 
+```
 $ git clone --recursive https://github.com/grypyrg/vagrant-percona-playground
 $ cd vagrant-percona-playbook
 $ cd single_node
 $ vagrant up --provider=aws	# virtualbox is default
+```
+
 
 when done
 
+```
 $ vagrant destroy
+```
 
 
 ## How to configure aws with vagrant?
